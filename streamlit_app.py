@@ -46,7 +46,7 @@ if ingredients_list:
     values (smoothies.public.order_seq.nextval, False, '""" + name_on_order+ """','""" + ingredients_string + """', current_timestamp()) """
     
 
-    # st.write(my_insert_stmt)
+    st.write(my_insert_stmt)
 
     time_to_insert = st.button('Submit Order')
 
